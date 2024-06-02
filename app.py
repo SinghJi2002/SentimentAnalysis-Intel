@@ -8,9 +8,9 @@ from nltk.corpus import stopwords
 STOPWORDS = set(stopwords.words('english'))
 
 
-model=pickle.load(open('D:/SentimentAnalysis-Intel/Saved_Models/model_xgb.pkl', 'rb'))
-countVectoriser=pickle.load(open('D:/SentimentAnalysis-Intel/Saved_Models/countVectorizer.pkl', 'rb'))
-scaler=pickle.load(open('D:/SentimentAnalysis-Intel/Saved_Models/scaler.pkl', 'rb'))
+model=pickle.load(open('Saved_Models/model_xgb.pkl', 'rb'))
+countVectoriser=pickle.load(open('Saved_Models/countVectorizer.pkl', 'rb'))
+scaler=pickle.load(open('Saved_Models/scaler.pkl', 'rb'))
 
 def prediction(text):
     stemmer = PorterStemmer()
