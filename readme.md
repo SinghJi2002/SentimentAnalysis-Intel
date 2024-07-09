@@ -51,8 +51,8 @@ The Intel Product Sentiment Analysis project aims to analyze customer sentiment 
     - Run the preprocessing script to clean and prepare the data for analysis.
 
 3. **Sentiment Analysis:**
-    - Train the sentiment analysis models using the training scripts provided.
-    - Use the trained models to predict sentiments on new data.
+    - Train the sentiment analysis models using the training scripts provided. Select the best performing model.
+    - Use the trained model to predict sentiments on intel data and further analyse them.
 
 4. **Visualization:**
     - Generate visualizations to explore the sentiment distribution and other insights.
@@ -64,12 +64,3 @@ We welcome contributions from the community. Please follow these steps to contri
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/your-feature-name`).
 5. Create a new Pull Request.
-
-## Acknowledgements
-We would like to thank:
-- [Manager's Name], for providing clear instructions and continuous support.
-- [Guide Teacher's Name], for expert advice and insightful feedback.
-
----
-
-Feel free to customize this template to fit your project specifics.
